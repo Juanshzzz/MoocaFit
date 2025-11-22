@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #000000;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabeçalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #1b1515;
+}
+
+.cabeçalho a{
+    background: none;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.cabeçalho a:hover{
+    background: none;
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: 20px;
+    color: #009a17;
+    transition: 0.3s;
+}
+
+.cabeçalho img{
+    background: none;
+}
+
+.cabeçalho nav{
+    background: none;
+}
+
+.fnd{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    opacity: 0.2;
+}
+
+.topo{
+    display: flex;
+    position: absolute;
+    background: none;
+    padding: 100px;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.topo h1{
+    background: none;
+    color: #009a17;
+    font-size: 50px;
+    margin-top: auto;
+}
+
+.topo h2{
+    background: none;
+    color: #009a17;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.topo p{
+    background: none;
+    margin-bottom: auto;
+}
+
+.sc2{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.l{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 20px;
+}
+
+.l h2{
+    font-size: 20px;
+    text-decoration: underline #009a17 3px;
+}
+
+#pp{
+    margin-bottom: 60px;
+}
+
+.aa{
+    margin-bottom: 60px;
+}
+
+#rv{
+    display: flex;
+    margin-top: 15px;
+    background: #009a17;
+    padding-left: 25px;
+    padding-top: 3px;
+    height: 30px;
+    width: 150px;
+    border-radius: 15px;
+}
+
+.q{
+    display: flex;
+    justify-content: space-around;
+}
+
+.r{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 20px;
+}
+
+.r img{
+    height: 40vh;
+    width: 40vw;
+    object-fit: cover;
+    margin: 15px;
+    border: #009a17 solid 3px;
+    border-radius: 15px;
+}
+
+.sc3{
+    height: 100vh;
+}
+
+.i{
+    font-size: 13px;
+    text-decoration: underline #009a17 3px;
+    margin: 20px;
+}
+
+.pos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.crd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.crd img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: #009a17 solid 3px;
+    border-radius: 15px;
+}
+
+footer{
+    position: relative;
+}
+
+.pb{
+    display: flex;
+    justify-content: space-around;
+    background: #1b1515;
+}
+
+.cl{
+    display: flex;
+    width: 100%;
+    background: #1b1515;
+    padding: 10px;
+    justify-content: center;
+}
+
+.cl img{
+    height: 100px;
+    background: none;
+}
+
+.redes img{
+    margin: 10px;
+    width: 40px;
+    background: none;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-around;
+    background: none;
+    width: 70%;
+}
+
+.sp1{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: none;
+}
+
+.sp1 p{
+    background: none;
+    color: #ffffff;
+}
+
+.sp2{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: none;
+}
+
+.sp2 p{
+    background: none;
+    color: #ffffff;
+}
+
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: none;
+}
+
+.cont img{
+    width: 30px;
+    margin: 10px;
+    background: none;
+}
+
+.p{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: none;
+}
+
+.sp3{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: none;
+}
+
+.sp3 p{
+    background: none;
+    color: #ffffff;
+}
+
+.pag img{
+    width: 50px;
+    margin: 10px;
+    background: none;
+}
+
+.pag{
+    background: none;
+}
+
+#copy{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: none;
+    color: #d3d3d3;
+}

@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #000000;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabeçalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #1b1515;
+}
+
+.cabeçalho a{
+    background: none;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.cabeçalho a:hover{
+    background: none;
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: 20px;
+    color: #009a17;
+    transition: 0.3s;
+}
+
+.cabeçalho img{
+    background: none;
+}
+
+.cabeçalho nav{
+    background: none;
+}
+
+main{
+    height: 100vb;
+}
+
+main h1{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.card img{
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    border: 3px solid #009a17;
+    object-fit: cover;
+}
+
+.card h2{
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-decoration: underline 3px #009a17;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+section a{
+    text-decoration: none;
+}
+
+.card{
+    width: 250px;
+}
+
+.card:hover{
+scale: 110%;
+    transition: 0.3s;
+}
+
+.card p{
+    font-weight: 300;
+    color: #d3d3d3;
+}
+
+footer{
+    position: relative;
+}
+
+.pb{
+    display: flex;
+    justify-content: space-around;
+    background: #1b1515;
+}
+
+.cl{
+    display: flex;
+    width: 100%;
+    background: #1b1515;
+    padding: 10px;
+    justify-content: center;
+}
+
+.cl img{
+    height: 100px;
+    background: none;
+}
+
+.redes img{
+    margin: 10px;
+    width: 40px;
+    background: none;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-around;
+    background: none;
+    width: 70%;
+}
+
+.sp1{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: none;
+}
+
+.sp1 p{
+    background: none;
+    color: #ffffff;
+}
+
+.sp2{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: none;
+}
+
+.sp2 p{
+    background: none;
+    color: #ffffff;
+}
+
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: none;
+}
+
+.cont img{
+    width: 30px;
+    margin: 10px;
+    background: none;
+}
+
+.p{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: none;
+}
+
+.sp3{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: none;
+}
+
+.sp3 p{
+    background: none;
+    color: #ffffff;
+}
+
+.pag img{
+    width: 50px;
+    margin: 10px;
+    background: none;
+}
+
+.pag{
+    background: none;
+}
+
+#copy{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: none;
+    color: #d3d3d3;
+}

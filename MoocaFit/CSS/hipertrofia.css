@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #000000;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabeçalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #1b1515;
+}
+
+.cabeçalho a{
+    background: none;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.cabeçalho a:hover{
+    background: none;
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: 20px;
+    color: #009a17;
+    transition: 0.3s;
+}
+
+.cabeçalho img{
+    background: none;
+}
+
+.cabeçalho nav{
+    background: none;
+}
+
+.timg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timg h1{
+    font-size: 25px;
+    text-decoration: underline 3px #009a17;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.timg img{
+    width: 600px;
+    border-radius: 15px;
+    border: 3px solid #009a17;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    width: 80%;
+}
+
+.td{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    width: 80%;
+}
+
+h2{
+    align-self: self-start;
+    text-decoration: 3px underline #009a17;
+}
+
+p{
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.botao-a{
+    background: #009a17;
+    color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    width: 150px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.botao-a a{
+    background: #009a17;
+    text-decoration: none;
+}
+
+footer{
+    position: relative;
+}
+
+.pb{
+    display: flex;
+    justify-content: space-around;
+    background: #1b1515;
+}
+
+.cl{
+    display: flex;
+    width: 100%;
+    background: #1b1515;
+    padding: 10px;
+    justify-content: center;
+}
+
+.cl img{
+    height: 100px;
+    background: none;
+}
+
+.redes img{
+    margin: 10px;
+    width: 40px;
+    background: none;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-around;
+    background: none;
+    width: 70%;
+}
+
+.sp1{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: none;
+}
+
+.sp1 p{
+    background: none;
+}
+
+.sp2{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: none;
+}
+
+.sp2 p{
+    background: none;
+}
+
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: none;
+}
+
+.cont img{
+    width: 30px;
+    margin: 10px;
+    background: none;
+}
+
+.p{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: none;
+}
+
+.sp3{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: none;
+}
+
+.sp3 p{
+    background: none;
+}
+
+.pag img{
+    width: 50px;
+    margin: 10px;
+    background: none;
+}
+
+.pag{
+    background: none;
+}
+
+#copy{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: none;
+    color: #d3d3d3;
+}
